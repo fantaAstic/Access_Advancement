@@ -1,0 +1,50 @@
+/* ExplorationCentre.css */
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Background color for the bottom container */
+    display: flex;
+    justify-content: space-between; /* Space buttons horizontally */
+    align-items: center; /* Center items vertically */
+    border-top: 1px solid #ccc; /* Optional border at the top of the container */
+    margin-left: 250px;
+    padding: 20px;   
+  }
+  
+.input-field {
+    flex-grow: 1; /* Allow the input field to grow and take remaining space */
+    margin-right: 10px; /* Add some space between the input field and buttons */
+}
+
+/* Style the buttons as needed */
+.input-buttons button {
+    /* Add your button styles here */
+    background-color: #007bff; /* Example background color */
+    color: white; /* Example text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.response-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.response-data i {
+    display: flex;
+}
+
+#card-reply {
+    margin-left: 90px;
+    box-shadow: 0 0 10px rgba(8, 135, 48, 0.7); 
+}
+
+#person {
+    font-style: italic;
+    font-weight: 900;
+}

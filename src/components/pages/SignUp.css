@@ -1,0 +1,33 @@
+/* SignUp.css */
+
+.signup-container {
+    display: flex;
+  }
+  
+  .logo-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+.logo {
+    width: 820px;
+}
+  
+  
+  .signup-content {
+    margin-left: 820px;
+    flex: 1;
+    padding: 20px;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  .social-login {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
